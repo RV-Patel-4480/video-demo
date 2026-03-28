@@ -1,0 +1,79 @@
+# =========================
+# Node
+# =========================
+node_modules/
+**/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Expo
+# =========================
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# =========================
+# iOS
+# =========================
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/*.xcworkspace
+**/*.xcuserstate
+**/*.xcuserdata
+
+# =========================
+# Android
+# =========================
+**/android/.gradle/
+**/android/build/
+**/android/.kotlin/
+**/android/app/build/
+**/android/app/.cxx/
+
+# =========================
+# Metro
+# =========================
+.metro-health-check*
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Temp
+# =========================
+tmp/
+temp/
+*.tmp
